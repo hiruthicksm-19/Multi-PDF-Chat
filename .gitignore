@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables / API keys
+.env
+.env.*
+!.env.example
+
+# Streamlit
+.streamlit/secrets.toml
+
+# FAISS vector database
+faiss_index/
+faiss_index/*
+
+# Uploaded/generated files
+uploads/
+output/
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Local cache
+.cache/
